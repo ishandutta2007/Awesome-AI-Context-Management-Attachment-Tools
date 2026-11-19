@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Context-Management-Attachment-Tools?color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -75,90 +75,90 @@ The table below outlines leading commercial and managed context platforms, sorte
 
 The following active open-source projects power context extraction, repository packing, agentic memory, semantic caching, and attachment handling. 
 
-Sorted in **descending order by GitHub star count**:
+Sorted in **descending order by GitHub Stars_Count**:
 
-- **[mendableai/firecrawl](https://github.com/mendableai/firecrawl)** [![GitHub stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social&color=white)](https://github.com/mendableai/firecrawl/stargazers)  
+- **[mendableai/firecrawl](https://github.com/mendableai/firecrawl)** [![GitHub_Stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=social&color=white)](https://github.com/mendableai/firecrawl/stargazers)  
   Open-source (`AGPL-3.0`) web crawler and parser that turns entire websites or clean documentation trees into clean, LLM-ready Markdown context attachments.
 
-- **[microsoft/markitdown](https://github.com/microsoft/markitdown)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/markitdown?style=social&color=white)](https://github.com/microsoft/markitdown/stargazers)  
+- **[microsoft/markitdown](https://github.com/microsoft/markitdown)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/markitdown?style=social&color=white)](https://github.com/microsoft/markitdown/stargazers)  
   Lightweight open-source (`MIT`) Python utility and MCP server from Microsoft for converting Office files (DOCX, XLSX, PPTX), PDFs, images (OCR/EXIF), and audio transcripts into clean Markdown context.
 
-- **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+- **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
   Leading open-source (`MIT`) ecosystem for building context-aware reasoning applications, offering document loaders, hierarchical text splitters, and dynamic context windows.
 
-- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
+- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
   Open-source (`Apache-2.0`) RAG engine based on deep document understanding, extracting rich structured context from complex attachments with vision-guided layout parsing.
 
-- **[unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)** [![GitHub stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social&color=white)](https://github.com/unclecode/crawl4ai/stargazers)  
+- **[unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)** [![GitHub_Stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social&color=white)](https://github.com/unclecode/crawl4ai/stargazers)  
   High-speed open-source (`Apache-2.0`) asynchronous web crawler and HTML-to-Markdown extractor specifically optimized for LLM context windows and real-time agent data retrieval.
 
-- **[opendatalab/MinerU](https://github.com/opendatalab/MinerU)** [![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=social&color=white)](https://github.com/opendatalab/MinerU/stargazers)  
+- **[opendatalab/MinerU](https://github.com/opendatalab/MinerU)** [![GitHub_Stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=social&color=white)](https://github.com/opendatalab/MinerU/stargazers)  
   High-precision open-source (`AGPL-3.0`) PDF-to-Markdown and JSON extractor excelling at complex academic layouts, LaTeX mathematical formulas, tables, and multi-column figures.
 
-- **[DS4SD/docling](https://github.com/DS4SD/docling)** [![GitHub stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers)  
+- **[DS4SD/docling](https://github.com/DS4SD/docling)** [![GitHub_Stars](https://img.shields.io/github/stars/DS4SD/docling?style=social&color=white)](https://github.com/DS4SD/docling/stargazers)  
   Leading open-source (`MIT`) document processing toolkit from IBM Research that parses PDFs, DOCX, PPTX, XLSX, HTML, and scanned images into rich, layout-aware Markdown and JSON attachments.
 
-- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** [![GitHub stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** [![GitHub_Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers)  
   Open-source (`Apache-2.0`) universal memory and context layer combining vector, graph, and key-value stores to dynamically extract, update, and recall agent conversational context.
 
-- **[Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
+- **[Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub_Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
   Full-stack open-source (`MIT`) desktop and server application for turning any document collection or file attachments into an intelligent, private RAG context workspace.
 
-- **[run-llama/llama_index](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+- **[run-llama/llama_index](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
   Comprehensive open-source (`MIT`) data framework offering 160+ data connectors, hierarchical context indexes, and composable retrieval engines for attaching private data to LLMs.
 
-- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)  
+- **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)  
   Open-source (`MIT`) orchestration framework providing cyclical agent graphs, stateful thread checkpointers, message trimming/summarization, and long-term memory stores.
 
-- **[VikParuchuri/marker](https://github.com/VikParuchuri/marker)** [![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
+- **[VikParuchuri/marker](https://github.com/VikParuchuri/marker)** [![GitHub_Stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
   Ultra-fast open-source (`GPL-3.0`) converter for turning PDFs, EPUBs, and book scans into high-accuracy Markdown with LaTeX math, clean formatting, and table detection.
 
-- **[khoj-ai/khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+- **[khoj-ai/khoj](https://github.com/khoj-ai/khoj)** [![GitHub_Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
   Open-source (`GPL-3.0`) personal AI copilot and desktop search assistant that indexes files, notes, GitHub repos, and documents for offline context-aware synthesis.
 
-- **[qdrant/qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+- **[qdrant/qdrant](https://github.com/qdrant/qdrant)** [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
   Open-source (`Apache-2.0`) vector database and search engine built in Rust, engineered for high-performance context storage, rich payload filtering, and semantic caching.
 
-- **[getzep/graphiti](https://github.com/getzep/graphiti)** [![GitHub stars](https://img.shields.io/github/stars/getzep/graphiti?style=social&color=white)](https://github.com/getzep/graphiti/stargazers)  
+- **[getzep/graphiti](https://github.com/getzep/graphiti)** [![GitHub_Stars](https://img.shields.io/github/stars/getzep/graphiti?style=social&color=white)](https://github.com/getzep/graphiti/stargazers)  
   Open-source (`Apache-2.0`) temporal knowledge-graph context engine from Zep designed for real-time episodic agent memory, incremental edge updates, and hybrid graph/vector retrieval.
 
-- **[stanford-oval/storm](https://github.com/stanford-oval/storm)** [![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social&color=white)](https://github.com/stanford-oval/storm/stargazers)  
+- **[stanford-oval/storm](https://github.com/stanford-oval/storm)** [![GitHub_Stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social&color=white)](https://github.com/stanford-oval/storm/stargazers)  
   Open-source (`MIT`) LLM system from Stanford that synthesizes multi-document attachments and live internet search into long-form, cited Wikipedia-style knowledge reports.
 
-- **[chroma-core/chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+- **[chroma-core/chroma](https://github.com/chroma-core/chroma)** [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
   Developer-friendly open-source (`Apache-2.0`) embedded and client/server vector database designed for simple, local context indexing and conversational state management.
 
-- **[yamadashy/repomix](https://github.com/yamadashy/repomix)** [![GitHub stars](https://img.shields.io/github/stars/yamadashy/repomix?style=social&color=white)](https://github.com/yamadashy/repomix/stargazers)  
+- **[yamadashy/repomix](https://github.com/yamadashy/repomix)** [![GitHub_Stars](https://img.shields.io/github/stars/yamadashy/repomix?style=social&color=white)](https://github.com/yamadashy/repomix/stargazers)  
   Popular open-source (`MIT`) CLI and MCP tool that packs entire source code repositories into single structured XML, Markdown, or JSON context attachments with token counts.
 
-- **[letta-ai/letta](https://github.com/letta-ai/letta)** [![GitHub stars](https://img.shields.io/github/stars/letta-ai/letta?style=social&color=white)](https://github.com/letta-ai/letta/stargazers)  
+- **[letta-ai/letta](https://github.com/letta-ai/letta)** [![GitHub_Stars](https://img.shields.io/github/stars/letta-ai/letta?style=social&color=white)](https://github.com/letta-ai/letta/stargazers)  
   Open-source (`Apache-2.0`) stateful agent memory framework (formerly MemGPT) that manages hierarchical context tiers (RAM, archival, and recalled storage) for lifelong agents.
 
-- **[pgvector/pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
+- **[pgvector/pgvector](https://github.com/pgvector/pgvector)** [![GitHub_Stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
   Open-source (`PostgreSQL`) extension providing vector similarity search directly within Postgres, enabling ACID-compliant contextual attachment retrieval alongside relational tables.
 
-- **[weaviate/weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+- **[weaviate/weaviate](https://github.com/weaviate/weaviate)** [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
   Open-source (`BSD-3-Clause`) AI-native vector database featuring hybrid BM25 + vector search, multi-tenancy, and modular vectorizers for multi-modal attachment embeddings.
 
-- **[coderamp-labs/gitingest](https://github.com/coderamp-labs/gitingest)** [![GitHub stars](https://img.shields.io/github/stars/coderamp-labs/gitingest?style=social&color=white)](https://github.com/coderamp-labs/gitingest/stargazers)  
+- **[coderamp-labs/gitingest](https://github.com/coderamp-labs/gitingest)** [![GitHub_Stars](https://img.shields.io/github/stars/coderamp-labs/gitingest?style=social&color=white)](https://github.com/coderamp-labs/gitingest/stargazers)  
   Open-source (`MIT`) tool and web interface that transforms any Git repository into a prompt-friendly text context attachment optimized for LLM context limits.
 
-- **[Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured)** [![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers)  
+- **[Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured)** [![GitHub_Stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers)  
   Comprehensive open-source (`Apache-2.0`) ETL pipeline for partitioning, cleaning, and chunking raw document attachments (PDF, DOCX, CSV, HTML) into normalized elements for RAG.
 
-- **[jina-ai/reader](https://github.com/jina-ai/reader)** [![GitHub stars](https://img.shields.io/github/stars/jina-ai/reader?style=social&color=white)](https://github.com/jina-ai/reader/stargazers)  
+- **[jina-ai/reader](https://github.com/jina-ai/reader)** [![GitHub_Stars](https://img.shields.io/github/stars/jina-ai/reader?style=social&color=white)](https://github.com/jina-ai/reader/stargazers)  
   Open-source (`Apache-2.0`) HTTP API server that converts any URL into LLM-friendly Markdown context, stripping noise, ads, and navigation clutter.
 
-- **[zilliztech/GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
+- **[zilliztech/GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub_Stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
   Open-source (`MIT`) semantic caching library for storing and recalling semantically equivalent prompt-context pairs to reduce API latency and inference costs.
 
-- **[microsoft/LLMLingua](https://github.com/microsoft/LLMLingua)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/LLMLingua?style=social&color=white)](https://github.com/microsoft/LLMLingua/stargazers)  
+- **[microsoft/LLMLingua](https://github.com/microsoft/LLMLingua)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/LLMLingua?style=social&color=white)](https://github.com/microsoft/LLMLingua/stargazers)  
   Open-source (`MIT`) prompt and context compression toolkit from Microsoft Research delivering up to 20x token reduction while preserving semantic accuracy in attached context.
 
-- **[chonkie-inc/chonkie](https://github.com/chonkie-inc/chonkie)** [![GitHub stars](https://img.shields.io/github/stars/chonkie-inc/chonkie?style=social&color=white)](https://github.com/chonkie-inc/chonkie/stargazers)  
+- **[chonkie-inc/chonkie](https://github.com/chonkie-inc/chonkie)** [![GitHub_Stars](https://img.shields.io/github/stars/chonkie-inc/chonkie?style=social&color=white)](https://github.com/chonkie-inc/chonkie/stargazers)  
   Lightweight and blazing-fast open-source (`MIT`) token-aware and semantic text chunker designed for effortless pre-processing of large document attachments.
 
-- **[chipfighter/context-attachment-manager](https://github.com/chipfighter/context-attachment-manager)** [![GitHub stars](https://img.shields.io/github/stars/chipfighter/context-attachment-manager?style=social&color=white)](https://github.com/chipfighter/context-attachment-manager/stargazers)  
+- **[chipfighter/context-attachment-manager](https://github.com/chipfighter/context-attachment-manager)** [![GitHub_Stars](https://img.shields.io/github/stars/chipfighter/context-attachment-manager?style=social&color=white)](https://github.com/chipfighter/context-attachment-manager/stargazers)  
   Open-source context attachment management utility built for organizing, bundling, and attaching structured files, snippets, and reference resources into LLM workflows.
 
 ---
@@ -188,7 +188,7 @@ We welcome additions and updates! To submit a new tool or suggest improvements:
 
 1. 🍴 Fork the repository.
 2. 🌿 Create a new feature branch (`git checkout -b add-tool-name`).
-3. 📝 Add your entry with a factual, neutral description, official link, pricing/free tier breakdown (for SaaS) or GitHub star count badge (for open source).
+3. 📝 Add your entry with a factual, neutral description, official link, pricing/free tier breakdown (for SaaS) or GitHub Stars_Count badge (for open source).
 4. 🚀 Open a Pull Request with a clear description of the project and its relevance to AI context management.
 
 ---
