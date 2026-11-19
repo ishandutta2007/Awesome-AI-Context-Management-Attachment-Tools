@@ -42,65 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[LlamaCloud & LlamaParse (LlamaIndex)](https://llamaindex.ai)**  
-
-  Enterprise context and document parsing platform converting complex PDFs, tables, charts, and multi-format attachments into structured LLM-ready Markdown and managed indexes.
-
-
-
-- **[LangChain & LangGraph Platform](https://langchain.com)**  
-
-  Managed infrastructure for stateful context management, conversation thread checkpointing, cross-session memory stores, and multi-agent context routing.
-
-
-
-- **[Mem0 Platform](https://mem0.ai)**  
-
-  Managed cloud memory and context layer for personalized AI agents offering automatic fact extraction, user/session scoping, and low-latency context retrieval APIs.
-
-
-
-- **[Zep Cloud](https://getzep.com)**  
-
-  Enterprise agent memory and context engineering platform powered by temporal knowledge graphs that continuously synthesize user interactions and attached business data.
-
-
-
-- **[Ragie](https://ragie.ai)**  
-
-  Fully managed RAG-as-a-Service and attachment ingestion platform providing automated multi-format chunking, entity extraction, and hybrid context retrieval APIs.
-
-
-
-- **[Graphlit](https://graphlit.com)**  
-
-  Cloud-native multimodal knowledge-graph and context management platform for ingesting, transcribing, indexing, and querying files, web feeds, and media attachments.
-
-
-
-- **[Pinecone](https://pinecone.io)**  
-
-  Fully managed serverless vector database widely used as a scalable long-term context and document attachment store for production AI applications.
-
-
-
-- **[Qdrant Cloud](https://qdrant.tech)**  
-
-  Managed high-performance vector search and semantic caching cloud built in Rust for multi-tenant context storage, payload filtering, and hybrid retrieval.
-
-
-
-- **[Redis Cloud & Redis LangCache](https://redis.io)**  
-
-  Managed in-memory data platform and semantic caching service engineered for sub-millisecond session context buffers, attachment state, and LLM response caching.
-
-
-
-- **[Weaviate Cloud](https://weaviate.io)**  
-
-  Managed AI-native vector database offering hybrid keyword/semantic search, multi-tenancy, and multimodal attachment embeddings for persistent context management.
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[LlamaCloud & LlamaParse](https://llamaindex.ai)** | Enterprise context and document parsing platform converting complex PDFs, tables, charts, and multi-format attachments into structured LLM-ready Markdown. | Free forever tier; Starter at **$50/mo** (includes 40k credits) / Pay-As-You-Go overage at **$1.50 per 1,000 credits** (~$1.50/1k fast pages) | **10,000 credits/mo** free forever (~10k fast pages or ~1k agentic pages), 5 concurrent parse jobs, 1 project, 48-hr cache |
+| **[LangChain & LangGraph Platform](https://langchain.com)** | Managed infrastructure for stateful context management, thread checkpointing, cross-session memory stores, and multi-agent context routing. | Free Developer tier; Plus plan starts at **$39/user/mo** | **5,000 base traces/mo** free forever, 1 user seat, 1 workspace, 14-day data retention |
+| **[Mem0 Platform](https://mem0.ai)** | Managed cloud memory and context layer for personalized AI agents offering automatic fact extraction, user/session scoping, and low-latency retrieval. | Free tier; usage-based overages / Custom plans for enterprise graph memory | First 30 days: **10,000 adds/mo** & **1,000 retrievals/mo** (Mem0 covers LLM costs); With BYOK: **50,000 adds/mo** & **10,000 retrievals/mo** free forever |
+| **[Zep Cloud](https://getzep.com)** | Enterprise agent memory and context engineering platform powered by temporal knowledge graphs continuously synthesizing user interactions and attached data. | Free prototyping tier; Flex tier starts at **$125/mo** | **10,000 credits/mo** free forever for prototyping & evaluation |
+| **[Ragie](https://ragie.ai)** | Fully managed RAG-as-a-Service and attachment ingestion platform providing automated multi-format chunking, entity extraction, and hybrid retrieval APIs. | Free Developer tier; Starter plan starts at **$100/mo** | **1,000 document pages** & **1,000 retrievals** lifetime free allowance, 10 GB streaming, 10 hours processing |
+| **[Graphlit](https://graphlit.com)** | Cloud-native multimodal knowledge-graph and context management platform for ingesting, transcribing, indexing, and querying files, feeds, and media. | Free forever tier; Hobby/Starter plan starts at **$49/mo** | **100 credits/mo** free forever, 1 GB content storage, up to 1,000 content items, 3 content feeds, unlimited RAG chatbot conversations |
+| **[Pinecone](https://pinecone.io)** | Fully managed serverless vector database widely used as a scalable long-term context and document attachment store for production AI applications. | Free Starter tier; Standard plan starts at **$50/mo minimum usage** (serverless read/write consumption) | **2 GB storage**, up to 5 serverless indexes, **1M read units/mo**, **2M write units/mo**, 1 GB egress/mo, 1 project, 2 users in AWS `us-east-1` |
+| **[Qdrant Cloud](https://qdrant.tech)** | Managed high-performance vector search and semantic caching cloud built in Rust for multi-tenant context storage, payload filtering, and hybrid retrieval. | Free forever tier; Standard cluster starts at **$0.078/GB RAM/hour** (~**$57/GB RAM/mo**, typical small clusters start around **$30–$60/mo**) | **1 GB RAM**, **4 GB disk storage**, 0.5 vCPU (~1M vectors of 768 dimensions), 1 free cluster (auto-suspends after 1 week inactivity) |
+| **[Redis Cloud & Redis LangCache](https://redis.io)** | Managed in-memory data platform and semantic caching service engineered for sub-millisecond session context buffers, attachment state, and LLM response caching. | Free tier; Essentials paid tier starts at **$5/mo** ($0.007/hr for 250 MB) | **30 MB database memory** fixed free forever, 30 concurrent connections, 100 ops/sec max throughput, 5 GB/mo network bandwidth |
+| **[Weaviate Cloud](https://weaviate.io)** | Managed AI-native vector database offering hybrid keyword/semantic search, multi-tenancy, and multimodal attachment embeddings for persistent context management. | Free forever tier; Flex plan starts at **$45/mo minimum** (pay-as-you-go based on stored vector dimensions and storage) | **100,000 objects**, **1 GB memory**, **10 GB disk space**, 1 collection, up to 3 tenants, 2,000 embedding reqs/day, 1,000 query agent reqs/mo |
 
 
 
