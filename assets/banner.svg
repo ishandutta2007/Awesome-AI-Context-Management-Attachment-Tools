@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Backgrounds -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+    <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .gradient-word {
+      fill: url(#accentGrad);
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 19px;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+      letter-spacing: 0.5px;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .grid-line {
+      stroke: #334155;
+      stroke-opacity: 0.18;
+      stroke-width: 1;
+    }
+    .pulse-circle {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); opacity: 0.35; }
+      100% { transform: scale(1.1); opacity: 0.65; }
+    }
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: dash 25s linear infinite;
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -1000; }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Glow Orbs in Background -->
+  <circle cx="200" cy="80" r="180" fill="url(#glowGrad1)" filter="url(#blurFilter)" class="pulse-circle" />
+  <circle cx="1000" cy="320" r="220" fill="url(#glowGrad2)" filter="url(#blurFilter)" class="pulse-circle" style="animation-delay: -2s;" />
+
+  <!-- Subtle Matrix Grid -->
+  <g class="grid-line">
+    <line x1="0" y1="80" x2="1200" y2="80" />
+    <line x1="0" y1="160" x2="1200" y2="160" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="320" x2="1200" y2="320" />
+    <line x1="150" y1="0" x2="150" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="400" />
+    <line x1="450" y1="0" x2="450" y2="400" />
+    <line x1="600" y1="0" x2="600" y2="400" />
+    <line x1="750" y1="0" x2="750" y2="400" />
+    <line x1="900" y1="0" x2="900" y2="400" />
+    <line x1="1050" y1="0" x2="1050" y2="400" />
+  </g>
+
+  <!-- Dynamic Animated Context Flow Streams (Background elements behind text) -->
+  <g opacity="0.35">
+    <path d="M 50,340 C 250,280 400,380 650,330 C 850,290 1000,350 1150,300" fill="none" stroke="url(#accentGrad)" stroke-width="2.5" class="flow-line" />
+    <path d="M 50,60 C 300,120 500,40 750,90 C 950,130 1050,50 1150,80" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-line" style="animation-duration: 35s;" />
+  </g>
+
+  <!-- Foreground Content Container (guaranteed unobstructed) -->
+  <g transform="translate(600, 195)">
+    <!-- Category Badge -->
+    <g transform="translate(0, -125)">
+      <rect x="-160" y="-16" width="320" height="32" rx="16" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" />
+      <circle cx="-135" cy="0" r="4" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="-120" y="5" class="badge-text">CURATED ECOSYSTEM &#8226; 2026</text>
+    </g>
+
+    <!-- Main Title (Strictly Foreground) -->
+    <text x="0" y="-45" text-anchor="middle" class="title-text">
+      Awesome <tspan class="gradient-word">AI Context Management</tspan>
+    </text>
+    <text x="0" y="8" text-anchor="middle" class="title-text">
+      &amp; Attachment Tools
+    </text>
+
+    <!-- Subtitle (Strictly Foreground) -->
+    <text x="0" y="52" text-anchor="middle" class="subtitle-text">
+      Context Windows, File Parsers, Semantic Caches, Knowledge Graphs &amp; Agent Memory
+    </text>
+
+    <!-- Interactive / Status Pills -->
+    <g transform="translate(0, 105)">
+      <!-- Pill 1 -->
+      <g transform="translate(-360, 0)">
+        <rect x="0" y="-16" width="160" height="32" rx="8" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+        <text x="80" y="5" text-anchor="middle" class="pill-text">⚡ Context Ingestion</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(-180, 0)">
+        <rect x="0" y="-16" width="165" height="32" rx="8" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+        <text x="82" y="5" text-anchor="middle" class="pill-text">🧠 Stateful Memory</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(5, 0)">
+        <rect x="0" y="-16" width="170" height="32" rx="8" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+        <text x="85" y="5" text-anchor="middle" class="pill-text">📄 High-Fidelity OCR</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(195, 0)">
+        <rect x="0" y="-16" width="165" height="32" rx="8" fill="url(#cardGrad)" stroke="#475569" stroke-width="1" />
+        <text x="82" y="5" text-anchor="middle" class="pill-text">🚀 Semantic Cache</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Border Accent -->
+  <rect x="0.5" y="0.5" width="1199" height="399" fill="none" stroke="#334155" stroke-opacity="0.4" rx="12" />
+</svg>
